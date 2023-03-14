@@ -72,33 +72,31 @@ Memory Device
 
 ./mlc --peak_injection_bandwidth
 
-$ ./mlc --peak_injection_bandwidth
+#>./mlc --peak_injection_bandwidth
 
-   Intel(R) Memory Latency Checker - v3.10
+      Intel(R) Memory Latency Checker - v3.10
 
-   Command line parameters: --peak_injection_bandwidth
+      Command line parameters: --peak_injection_bandwidth
 
+      Using buffer size of 100.000MiB/thread for reads and an additional 100.000MiB/thread for writes
 
-   Using buffer size of 100.000MiB/thread for reads and an additional 100.000MiB/thread for writes
+      Measuring Peak Injection Memory Bandwidths for the system
 
+      Bandwidths are in MB/sec (1 MB/sec = 1,000,000 Bytes/sec)
 
-   Measuring Peak Injection Memory Bandwidths for the system
+      Using all the threads from each core if Hyper-threading is enabled
 
-   Bandwidths are in MB/sec (1 MB/sec = 1,000,000 Bytes/sec)
+      Using traffic with the following read-write ratios
 
-   Using all the threads from each core if Hyper-threading is enabled
+      ALL Reads        :      116929.8
 
-   Using traffic with the following read-write ratios
+      3:1 Reads-Writes :      60449.2
 
-   ALL Reads        :      116929.8
+      2:1 Reads-Writes :      46092.1
 
-   3:1 Reads-Writes :      60449.2
+      1:1 Reads-Writes :      34284.2
 
-   2:1 Reads-Writes :      46092.1
-
-   1:1 Reads-Writes :      34284.2
-
-   Stream-triad like:      48498.2
+      Stream-triad like:      48498.2
 
 
 这里测试带宽的结果 116929.8    116929.8/1024= 114.1892578125GBs
