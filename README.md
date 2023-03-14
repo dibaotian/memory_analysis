@@ -9,15 +9,16 @@
    Speed
    
 #>dmidecode -t 17
-#dmidecode 3.1
-Getting SMBIOS data from sysfs.
-SMBIOS 3.2.0 present.
-#SMBIOS implementations newer than version 3.1.1 are not
-#fully supported by this version of dmidecode.
 
-Handle 0x1100, DMI type 17, 84 bytes
+      #dmidecode 3.1
+      Getting SMBIOS data from sysfs.
+      SMBIOS 3.2.0 present.
+      #SMBIOS implementations newer than version 3.1.1 are not
+      #fully supported by this version of dmidecode.
 
-Memory Device
+      Handle 0x1100, DMI type 17, 84 bytes
+
+      Memory Device
 
         Array Handle: 0x1000
         
