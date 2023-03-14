@@ -164,6 +164,41 @@
 
        20000   84.75     1270.7
  
+一些其他的mlc命令
+      mlc --latency_matrix
 
+      prints a matrix of local and cross-socket memory latencies
+
+      mlc --bandwidth_matrix
+
+            prints a matrix of local and cross-socket memory b/w
+
+      mlc --peak_injection_bandwidth
+
+            prints peak memory b/w (core generates requests at fastest possible rate) for various read-write ratios with all local accesses
+
+      mlc --max_bandwidth
+
+            prints maximum memory b/w (by automatically varying load injection rates) for various read-write ratios with all local accesses
+
+      mlc --idle_latency
+
+            prints the idle memory latency of the platform
+
+      mlc --loaded_latency
+
+            prints the loaded memory latency of the platform
+
+      mlc --c2c_latency
+
+            prints the cache-to-cache transfer latencies of the platform
+
+      mlc -e
+
+            do not modify prefetcher settings
+
+      mlc --memory_bandwidth_scan 
+
+            prints memory bandwidth across entire memory for each 1 GB address range
 
 
