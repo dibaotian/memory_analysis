@@ -106,62 +106,62 @@ Memory Device
 
 ./mlc --loaded_latency
 
-Intel(R) Memory Latency Checker - v3.10
+      Intel(R) Memory Latency Checker - v3.10
 
-Command line parameters: --loaded_latency
+      Command line parameters: --loaded_latency
 
 
-Using buffer size of 100.000MiB/thread for reads and an additional 100.000MiB/thread for writes
+      Using buffer size of 100.000MiB/thread for reads and an additional 100.000MiB/thread for writes
 
-Measuring Loaded Latencies for the system
+      Measuring Loaded Latencies for the system
 
-Using all the threads from each core if Hyper-threading is enabled
+      Using all the threads from each core if Hyper-threading is enabled
 
-Using Read-only traffic type
+      Using Read-only traffic type
 
-Inject  Latency Bandwidth
+      Inject  Latency Bandwidth
 
-Delay   (ns)    MB/sec
+      Delay   (ns)    MB/sec
 
-==========================
+      ==========================
 
- 00000  143.76   114235.5
- 
- 00002  140.90   114132.3
- 
- 00008  143.01   113917.7
- 
- 00015  137.72   114136.7
- 
- 00050  135.67   112503.6
- 
- 00100  111.64    72658.7
- 
- 00200  104.17    46424.4
- 
- 00300  101.11    32820.2
- 
- 00400   98.12    25123.2
- 
- 00500   98.15    20435.2
- 
- 00700   97.53    15021.4
- 
- 01000   92.84    10773.6
- 
- 01300   90.85     8496.2
- 
- 01700   90.47     6718.4
- 
- 02500   87.62     4810.1
- 
- 03500   87.02     3653.8
- 
- 05000   87.77     2783.6
- 
- 09000   85.29     1889.8
- 
- 20000   84.75     1270.7
+       00000  143.76   114235.5
+
+       00002  140.90   114132.3
+
+       00008  143.01   113917.7
+
+       00015  137.72   114136.7
+
+       00050  135.67   112503.6
+
+       00100  111.64    72658.7
+
+       00200  104.17    46424.4
+
+       00300  101.11    32820.2
+
+       00400   98.12    25123.2
+
+       00500   98.15    20435.2
+
+       00700   97.53    15021.4
+
+       01000   92.84    10773.6
+
+       01300   90.85     8496.2
+
+       01700   90.47     6718.4
+
+       02500   87.62     4810.1
+
+       03500   87.02     3653.8
+
+       05000   87.77     2783.6
+
+       09000   85.29     1889.8
+
+       20000   84.75     1270.7
  
 
 
